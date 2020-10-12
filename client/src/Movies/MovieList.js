@@ -17,7 +17,7 @@ function MovieDetails(props) {
 
   return (
     <div className="movie-card">
-      <Link to={`${id}`}><h2>{title}</h2></Link>
+      <Link to={`/movies/${id}`}><h2>{title}</h2></Link>
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
